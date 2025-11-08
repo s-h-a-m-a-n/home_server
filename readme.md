@@ -67,7 +67,7 @@ id=101
 
 # create image directory, download and uncomporess
 mkdir -p /var/lib/vz/images/${id}
-curl --location https://github.com/AuxXxilium/arc/releases/download/24.10.04/arc-24.10.04.img.zip --output /var/lib/vz/images/${id}/arc-loader.img.zip
+curl --location https://github.com/AuxXxilium/arc/releases/download/3.0.7/arc-3.0.7.img.zip --output /var/lib/vz/images/${id}/arc-loader.img.zip
 unzip -qo /var/lib/vz/images/${id}/arc-loader.img.zip -d /var/lib/vz/images/${id}/
 
 # create disk for sata0
